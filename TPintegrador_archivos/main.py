@@ -1,12 +1,12 @@
 
 #importacion de modulos
-from registrarErrores import *
-from dividirXGenero import *
-from dividirXTipVacuna  import *
-from dosisXJurisdiccion  import *
-from segDosisXJur  import *
-from refuerzosAMas60  import *
-from listarRegistros  import *
+from modulos.registrarErrores import *
+from modulos.dividirXGenero import *
+from modulos.dividirXTipVacuna  import *
+from modulos.dosisXJurisdiccion  import *
+from modulos.segDosisXJur  import *
+from modulos.refuerzosAMas60  import *
+from modulos.listarRegistros  import *
 
 registros = listarRegistros('baseMuestra.csv') 
 
