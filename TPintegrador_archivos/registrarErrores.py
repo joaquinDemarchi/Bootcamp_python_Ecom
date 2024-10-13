@@ -13,21 +13,34 @@ def registrarErrores(registros) :
     
     for i, registro in enumerate(registros):
         
-        if registro['sexo'] not in ['M', 'F']:
-            registros_erroneos.append((i, registro, "Sexo inválido"))
-            
-        if registro['vacuna'] not in ['Moderna', 'Sputnik', 'Astrazaneca', 'Sinopharm', 'Pfizer']:
-            registros_erroneos.append((i, registro, "Vacuna inválida"))
-            
-        if registro['jurisdiccion_residencia'] not in jurPosibles:
-            registros_erroneos.append((i, registro, "Jurisdiccion invalida"))
-        
         # Verificar valores nulos
+        
+        nulo = False
+        
         for campo in registro:
             if registro[campo] == '':
+                nulo = True
                 registros_erroneos.append((i, registro, f"{campo} es nulo"))
         
-    #retorna lista de  
+        if registro['sexo'] not in ['M', 'F'] and nulo != True:
+            registros_erroneos.append((i, registro, "Sexo inválido"))
+            
+        if registro['vacuna'] not in ['Moderna', 'Sputnik', 'Astrazaneca', 'Sinopharm', 'Pfizer'] and nulo != True:
+            registros_erroneos.append((i, registro, "Vacuna inválida"))
+            
+        if registro['jurisdiccion_residencia'] not in jurPosibles and nulo != True:
+            registros_erroneos.append((i, registro, "Jurisdiccion invalida"))
+            
+        if ( "<" not in registro['grupo_etario']
+            and ">" not in registro['grupo_etario']
+            and "=" not in registro['grupo_etario']
+            and "-" not in registro['grupo_etario']
+            ) and nulo != True:
+            registros_erroneos.append((i, registro, "Grupo etario invalido"))
+            
+    nulo = False
+        
+    #retorna archvivo con lsita de errores
     return registros_erroneos
 
 
