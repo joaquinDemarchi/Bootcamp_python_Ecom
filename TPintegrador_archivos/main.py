@@ -16,8 +16,7 @@ registros = listarRegistros('baseMuestra.csv')
 #dic en donde se guardan opciones del menu
 MENU_PRINCIPAL= {
     1: {
-            "nombre" : "Mostrar la distribucion de vacunas por Genero"
-            #"metodo" : dividirXGenero(registros) 
+            "nombre" : "Mostrar la distribucion de vacunas por Genero",
     },
     2: {
             "nombre" : "Mostrar la distribucion de vacunas por Tipo de vacuna"
@@ -52,6 +51,7 @@ while True:
     mensajeContinuar = "Presiona ENTER para continuar.\n"
     
     opcion = input("\n--->")
+    
     
     if opcion == '1':
         print("\nDistribución por Género:\n")
@@ -109,6 +109,5 @@ while True:
     else:
         print("La opcion ingresada es incorrecta")
         continue
-    
     
     #MENU_PRINCIPAL.get(int(opcion)['metodo'])
