@@ -1,0 +1,32 @@
+sexo,grupo_etario,jurisdiccion_residencia,jurisdiccion_residencia_id,depto_residencia,depto_residencia_id,jurisdiccion_aplicacion,jurisdiccion_aplicacion_id,depto_aplicacion,depto_aplicacion_id,fecha_aplicacion,vacuna,cod_dosis_generica,nombre_dosis_generica,condicion_aplicacion,orden_dosis,lote_vacuna,id_persona_dw
+,18-29,La Pampa,14,Rosario,3,Buenos Aires,14,Baradero,4,2023-01-06,Sinopharm,3,2da,SIN Factores de Riesgo,2,A123,628705.1945955298
+M,50-59,Salta,6,Rosario,2,Buenos Aires,14,La Plata,4,2023-01-01,Moderna,3,2da,SIN Factores de Riesgo,1,C789,120188.75421964837
+F,60-69,Salta,14,Rosario,4,Buenos Aires,21,Rosario,4,2023-01-10,Sinopharm,3,Refuerzo,SIN Factores de Riesgo,3,C789,766318.3384799296
+M,70-79,Salta,20,Rosario,2,Buenos Aires,21,Capital,1,2023-01-11,Pfizer,2,1ra,SIN Factores de Riesgo,3,C789,987123.4567891234
+F,30-39,Córdoba,14,Capital,1,Buenos Aires,14,Capital,3,2023-01-03,vacuna_invalida,3,Refuerzo,SIN Factores de Riesgo,1,A123,411595.1527644762
+F,40-49,Salta,20,Rosario,2,Buenos Aires,21,Capital,1,2023-01-02,Pfizer,2,1ra,SIN Factores de Riesgo,1,C789,297879.74177808483
+M,>=100,La Pampa,6,Baradero,4,Buenos Aires,6,Baradero,2,2023-01-09,Pfizer,14,2da,SIN Factores de Riesgo,3,A123,753755.7167773837
+M,50-59,Salta,20,Baradero,1,Buenos Aires,6,La Plata,3,2023-01-05,Sinopharm,2,Refuerzo,CON Factores de Riesgo,3,B456,599004.2575992886
+F,18-29,La Pampa,6,Capital,4,Asuncion,21,Baradero,3,2023-01-08,Moderna,3,2da,CON Factores de Riesgo,1,C789,263377.99184324907
+M,1,Buenos Aires,14,Rosario,4,Buenos Aires,6,La Plata,1,2023-01-04,Pfizer,3,1ra,CON Factores de Riesgo,2,A123,37108.2185300704
+M,18-29,Salta,66,Rosario,2,Santa Fe,6,La Plata,4,2023-01-07,Pfizer,1,1ra,SIN Factores de Riesgo,2,A123,631093.050524302
+M,70-79,Salta,20,Capital,1,Buenos Aires,21,Capital,2,2023-01-07,Pfizer,3,Refuerzo,CON Factores de Riesgo,1,B456,987123.4567891234
+,60-69,La Pampa,6,Capital,4,Buenos Aires,21,Baradero,2,2023-01-02,Pfizer,3,1ra,CON Factores de Riesgo,1,C789,628705.1945955298
+M,40-49,La Pampa,14,Capital,2,Santa Fe,6,Capital,3,2023-01-06,vacuna_invalida,3,2da,CON Factores de Riesgo,1,C789,37108.2185300704
+,>=100,Córdoba,20,Rosario,2,Buenos Aires,21,Baradero,4,2023-01-03,vacuna_invalida,14,2da,CON Factores de Riesgo,2,B456,411595.1527644762
+M,50-59,La Pampa,14,Baradero,1,Buenos Aires,6,Baradero,3,2023-01-11,vacuna_invalida,14,1ra,SIN Factores de Riesgo,2,C789,628705.1945955298
+F,>=100,Buenos Aires,66,Capital,4,Asuncion,6,La Plata,3,2023-01-06,Sinopharm,2,2da,CON Factores de Riesgo,3,A123,766318.3384799296
+F,>=100,Córdoba,66,Baradero,1,Buenos Aires,6,Capital,4,2023-01-04,vacuna_invalida,14,1ra,CON Factores de Riesgo,3,B456,766318.3384799296
+F,1,La Pampa,14,Rosario,2,Asuncion,6,La Plata,4,2023-01-08,Moderna,14,2da,CON Factores de Riesgo,1,C789,411595.1527644762
+F,30-39,Buenos Aires,6,Rosario,1,Santa Fe,21,Rosario,4,2023-01-02,Moderna,14,Refuerzo,CON Factores de Riesgo,3,B456,631093.050524302
+M,1,Salta,6,Rosario,4,Santa Fe,6,Rosario,2,2023-01-11,Pfizer,2,Refuerzo,CON Factores de Riesgo,2,A123,628705.1945955298
+,60-69,Buenos Aires,66,Rosario,4,Asuncion,14,Rosario,1,2023-01-08,Sinopharm,14,Refuerzo,SIN Factores de Riesgo,2,A123,263377.99184324907
+M,50-59,La Pampa,14,Baradero,2,Asuncion,14,Baradero,3,2023-01-01,vacuna_invalida,1,1ra,CON Factores de Riesgo,3,B456,297879.74177808483
+M,40-49,Córdoba,20,Baradero,2,Santa Fe,21,Baradero,2,2023-01-03,Sinopharm,3,2da,CON Factores de Riesgo,1,A123,631093.050524302
+M,1,La Pampa,6,Rosario,4,Asuncion,6,Baradero,1,2023-01-04,Sinopharm,1,1ra,SIN Factores de Riesgo,3,C789,766318.3384799296
+,60-69,Salta,66,Rosario,3,Asuncion,21,La Plata,2,2023-01-02,Moderna,14,1ra,CON Factores de Riesgo,1,C789,297879.74177808483
+F,40-49,La Pampa,6,Rosario,2,Buenos Aires,21,Baradero,3,2023-01-02,Sinopharm,1,Refuerzo,SIN Factores de Riesgo,1,A123,631093.050524302
+,40-49,Buenos Aires,20,Capital,2,Asuncion,21,La Plata,1,2023-01-09,Moderna,14,Refuerzo,SIN Factores de Riesgo,1,C789,753755.7167773837
+,30-39,La Pampa,14,Capital,4,Buenos Aires,6,Capital,4,2023-01-06,Pfizer,1,Refuerzo,CON Factores de Riesgo,1,B456,120188.75421964837
+M,1,Buenos Aires,66,Capital,3,Santa Fe,6,Baradero,4,2023-01-10,Sinopharm,2,2da,CON Factores de Riesgo,1,A123,263377.99184324907
+,1,La Pampa,20,Baradero,1,Buenos Aires,6,La Plata,3,2023-01-03,Moderna,14,Refuerzo,CON Factores de Riesgo,1,C789,599004.2575992886
