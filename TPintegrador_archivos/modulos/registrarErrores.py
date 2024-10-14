@@ -40,7 +40,6 @@ def registrarErrores(registros) :
             
     nulo = False
         
-    #retorna archvivo con lsita de errores
     return registros_erroneos
 
 
