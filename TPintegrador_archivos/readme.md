@@ -50,3 +50,8 @@ Creo un ciclo que reccorra dicho dict e imprima todas las opciones en pantalla.
 Defino un mensaje estandar para todas las opciones disponibles
 Y por ultimo defino cada uno de los mensajes personalizados que tendran cada opcion disponible en el menu los cuales contendran los resultados de cada solicitud obtenidos por las distintas funciones declaradas en los modulos anteriores.
 
+## ARCHIVO DE SALIDA
+
+##### registroDeErrores.csv
+
+Este archivo es una muestra del tipo de archivo de reporte de errores que devuelve el programa.
