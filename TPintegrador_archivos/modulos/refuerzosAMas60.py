@@ -1,7 +1,7 @@
 def refuerzosAMas60(registros):
 
     refuerzos_mayores_60 = 0
-    contrEdades = ['6','7','8','9','>']
+    contrEdades = ['6','7','8','9','>','<']
     
     for registro in registros:
         #valida primero sis es refuerzo y luego si es mayor a 60
