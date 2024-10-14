@@ -1,3 +1,5 @@
 ## BOOTCAMP PYTHON 
-ECOM CHACO
-Profesores: Lucas Ibañex, Federico Aguirre
+- Plataforma: ECOM CHACO - INFORMATORIO
+- Duracion: 2 meses
+- Profesores: Lucas Ibañex, Federico Aguirre
+
