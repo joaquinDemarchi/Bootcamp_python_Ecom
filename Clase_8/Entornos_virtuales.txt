@@ -14,8 +14,11 @@ posicionado en la carpeta SCRIPT
 # Instalar dependencias
 Desde https://pypi.org/
 
-    pip install
+    pip install [dependencia]
 
+# Desinstalar dependencias
+
+    pip uninstall [dependencia]
 
 #Desactivar
 posicionado en la carpeta SCRIPT
