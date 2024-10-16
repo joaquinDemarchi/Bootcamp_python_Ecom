@@ -1,0 +1,32 @@
+#Iniciar
+
+    python -m venv [nombre de carpeta donde se almacenara]
+
+#activar
+posicionado en la carpeta SCRIPT
+
+    .\activate o activate
+
+# ver que dependencias tenesmos instaladas ANTES y DESPUES para comparar
+
+    pip list
+
+# Instalar dependencias
+Desde https://pypi.org/
+
+    pip install
+
+
+#Desactivar
+posicionado en la carpeta SCRIPT
+
+    deactivate
+
+
+# Imprima un archivo con las librerias instaladas asi luego podemos volver acceder a ellas en otro momento, se hace con el comando freeze
+
+    pip freeze > requerimientos.txt
+
+# Luego para intalarlas, en el nuevo entorno ya CREADO y ACTIVADO
+
+    pip install -r requerimientos.txt

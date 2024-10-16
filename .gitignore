@@ -1,0 +1,13 @@
+# Ignorar todos los archivos .log
+*.log
+ve_*/
+*.venv
+*vacunacion
+
+#Ignorar el directorio node_modules
+pruebas libres/
+node_modules/
+
+#archivos especificos
+package-lock.json
+##package.json
