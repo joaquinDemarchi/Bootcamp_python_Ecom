@@ -7,6 +7,11 @@ posicionado en la carpeta SCRIPT
 
     .\activate o activate
 
+    # Si tenes error de politica de seguridad
+
+        Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+
 # ver que dependencias tenesmos instaladas ANTES y DESPUES para comparar
 
     pip list

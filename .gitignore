@@ -3,6 +3,7 @@
 ve_*/
 *.venv
 *vacunacion
+*TPintegrador_archivos_ENTREGA
 
 #Ignorar el directorio node_modules
 pruebas libres/
