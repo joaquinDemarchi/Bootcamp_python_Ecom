@@ -1,6 +1,7 @@
 # Ignorar todos los archivos .log
 *.log
 ve_*/
+*.rar
 *.venv
 *vacunacion
 *TPintegrador_archivos_ENTREGA

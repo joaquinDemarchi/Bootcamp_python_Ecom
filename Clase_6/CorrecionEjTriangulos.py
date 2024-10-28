@@ -5,3 +5,4 @@ def tipo_triangulo(self):
         return "Isósceles" 
 
     return "Escaleno"
+jdkslkdflkdf
